@@ -96,8 +96,6 @@ server=/*.icloud.com.cn/119.29.29.29
 server=/*.tencent.com/119.29.29.29
 server=/*.weixin.com/119.29.29.29
 
-
-
 [policy]
 
 static=苹果服务, direct, 香港节点, 台湾节点, 美国节点, 日本节点, 狮城节点, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
@@ -143,7 +141,7 @@ host-keyword, bing, direct
 host-keyword, aliyun, direct
 host-keyword, aihuishou, direct
 host-keyword, atrenew, direct
-#host-keyword, ouonet, 顶级0.1
+
 # > 一些比较容易忽视的分流
 host, ad.12306.cn, direct
 host, sdkapp.uve.weibo.com, direct
