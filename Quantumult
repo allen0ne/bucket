@@ -131,14 +131,8 @@ https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.Chin
 
 
 [filter_local]
-host-keyword, microsoft, direct
-#host-keyword, google, 美国节点
-#host, chatgpt, 狮城节点
-host-keyword, live, direct
-host-keyword, bing, direct
-host-keyword, aliyun, direct
-host-keyword, aihuishou, direct
-host-keyword, atrenew, direct
+
+
 
 # > 一些比较容易忽视的分流
 
