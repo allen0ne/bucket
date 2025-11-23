@@ -76,7 +76,7 @@ https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.re
 [server_remote]
 # > 魔法仅供临时使用from@Ruk1ng001
 https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml#delreg=.*&rename=@tg%40ddgksf2021-+@num-$index7, tag=🐟临时使用, update-interval=3600, opt-parser=true, enabled=true
-https://sub.godya.cc/data/resources/link/obtain?token=22c8dab6bd98bcb6cdc4d5d620256cb2, tag=好鸭, update-interval=172800, opt-parser=true, enabled=true
+https://sub.godya.cc/data/resources/link/obtain?token=51ca26f2fc8b04520c4fab624566cef5, tag=好鸭, update-interval=172800, opt-parser=true, enabled=true
 
 [dns]
 
