@@ -29,7 +29,8 @@ udp_drop_list = STUN, QUIC
 ; https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/UI-Action.json
 # > 流媒体解锁查询
 event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/streaming-ui-check.js, tag=流媒体解锁查询, img-url=arrowtriangle.right.square.system, enabled=true
-
+# > IP纯净度查询
+event-interaction https://ddgksf2013.top/scripts/server-info-pure.js, tag=节点纯净度详情, img-url=checkmark.shield.fill.system
 
 
 [rewrite_local]
@@ -84,16 +85,15 @@ https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml#delreg=.*&re
 ;prefer-doh3
 ;doh-server = https://223.5.5.5/dns-query, https://223.6.6.6/dns-query
 # > QuantumultX开启IPV6方法，删去下面的「no-ipv6」，在「VPN」栏中，开启「兼容性增强」
-#no-ipv6
+no-ipv6
 no-system
-server=8.8.8.8
+server=223.5.5.5
 server=119.29.29.29
 server=114.114.114.114
 server=/*.icloud.com/119.29.29.29
 server=/*.icloud.com.cn/119.29.29.29
 server=/*.tencent.com/119.29.29.29
 server=/*.weixin.com/119.29.29.29
-
 
 
 [policy]
