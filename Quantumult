@@ -38,6 +38,7 @@ event-interaction https://ddgksf2013.top/scripts/server-info-pure.js, tag=节点
 
 
 [rewrite_remote]
+https://raw.githubusercontent.com/ddgksf2013/Modules/main/Adblock.sgmodule, tag=去广告模块, update-interval=172800, opt-parser=true, enabled=true
 https://ddgksf2013.top/module/JavDB.WebEnhance.sgmodule, tag=JAV, update-interval=172800, opt-parser=true, enabled=true
 
 # ======= 会员解锁 ======= #
