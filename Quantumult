@@ -38,7 +38,9 @@ event-interaction https://ddgksf2013.top/scripts/server-info-pure.js, tag=节点
 
 
 [rewrite_remote]
-https://raw.githubusercontent.com/ddgksf2013/Modules/main/Adblock.sgmodule, tag=去广告模块, update-interval=172800, opt-parser=true, enabled=true
+https://ddgksf2013.top/scripts/zhihu.ads.js, tag=知乎去广告@ddgksf2013, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/KeepAds.conf, tag=keep, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Modules/main/Adblock.sgmodule, tag=去广告模块, update-interval=172800, opt-parser=true, enabled=false
 https://ddgksf2013.top/module/JavDB.WebEnhance.sgmodule, tag=JAV, update-interval=172800, opt-parser=true, enabled=true
 
 # ======= 会员解锁 ======= #
@@ -52,7 +54,6 @@ https://whatshub.top/rewrite/adultraplus.conf, tag=APP启动页去广告ultra+, 
 https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/XiaoYuZhouAds.conf, tag=小宇宙, update-interval=172800, opt-parser=true, enabled=true
 https://ddgksf2013.top/rewrite/StartUpAds.conf, tag=墨鱼去开屏2.0, update-interval=86400, opt-parser=true, enabled=true
 https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/CaiYunAds.conf, tag=彩云天气净化, update-interval=86400, opt-parser=false, enabled=true
-https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/Zhihu.Adblock.js, tag=知乎净化助手, update-interval=86400, opt-parser=true, enabled=true
 https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/YoutubeAds.conf, tag=油管去广告@Maasea, update-interval=86400, opt-parser=false, enabled=true
 https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/WeiboAds.conf, tag=微博去广告, update-interval=86400, opt-parser=false, enabled=true
 https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/AmapAds.conf, tag=高德地图净化[卸载重装], update-interval=86400, opt-parser=false, enabled=true
@@ -73,6 +74,7 @@ https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.re
 [server_local]
 
 [server_remote]
+https://oss8.cauenvao.click/api/v1/client/subscribe?token=c34eabcbeb5b107838af80a01dae39fe, tag=ouo, update-interval=172800, opt-parser=false, enabled=true
 https://sub.godya.cc/data/resources/link/obtain?token=51ca26f2fc8b04520c4fab624566cef5, tag=NiceDuck, update-interval=172800, opt-parser=false, enabled=true
 # > 魔法仅供临时使用from@Ruk1ng001
 https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml#delreg=.*&rename=@tg%40ddgksf2021-+@num-$index7, tag=🐟临时使用, update-interval=3600, opt-parser=true, enabled=true
