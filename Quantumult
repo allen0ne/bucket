@@ -38,6 +38,10 @@ event-interaction https://ddgksf2013.top/scripts/server-info-pure.js, tag=节点
 
 
 [rewrite_remote]
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/XiaoHongShuAds.conf, tag=小红书去广告@ddgksf2013, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/ChinaUnicomAds.conf, tag=中国联通去广告@ddgksf2013, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/Applet.conf, tag=微信小程序去广告@ddgksf2013, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Scripts/master/coolapk.js, tag=酷安去广告@ddgksf2013, update-interval=86400, opt-parser=true, enabled=true
 https://ddgksf2013.top/scripts/zhihu.ads.js, tag=知乎去广告@ddgksf2013, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/KeepAds.conf, tag=keep, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/ddgksf2013/Modules/main/Adblock.sgmodule, tag=去广告模块, update-interval=172800, opt-parser=true, enabled=false
@@ -74,10 +78,10 @@ https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.re
 [server_local]
 
 [server_remote]
+https://dash.pqjc.site/api/v1/client/subscribe?token=c74d488b19189e94dc803d9b1f444a8c, tag=赔钱, update-interval=172800, opt-parser=false, enabled=true
 https://oss8.cauenvao.click/api/v1/client/subscribe?token=c34eabcbeb5b107838af80a01dae39fe, tag=ouo, update-interval=172800, opt-parser=false, enabled=true
 https://sub.godya.cc/data/resources/link/obtain?token=51ca26f2fc8b04520c4fab624566cef5, tag=NiceDuck, update-interval=172800, opt-parser=false, enabled=true
 # > 魔法仅供临时使用from@Ruk1ng001
-https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml#delreg=.*&rename=@tg%40ddgksf2021-+@num-$index7, tag=🐟临时使用, update-interval=3600, opt-parser=true, enabled=true
 
 [dns]
 
@@ -96,6 +100,7 @@ server=/*.weixin.com/119.29.29.29
 
 
 [policy]
+static=emby, server-tag-regex=(?<!\d)0\.0?1(?!\d), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png
 
 static=苹果服务, direct, 香港节点, 台湾节点, 美国节点, 日本节点, 狮城节点, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
 static=全球加速, 自动选择, direct, 香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
@@ -116,7 +121,7 @@ url-latency-benchmark=美国节点, server-tag-regex=(?=.*(美|US|(?i)States|Ame
 
 
 [filter_remote]
-https://gist.githubusercontent.com/ddgksf2013/cb4121e8b5c5d865cc949cb8120320c4/raw/Ai.yaml, tag=AI, force-policy=proxy, update-interval=172800, opt-parser=true, enabled=true
+https://gist.githubusercontent.com/ddgksf2013/cb4121e8b5c5d865cc949cb8120320c4/raw/Ai.yaml, tag=AI, force-policy=狮城节点, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/ddgksf2013/Filter/master/Unbreak.list, tag=规则修正, force-policy=direct, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/Cats-Team/AdRules/main/qx.conf, tag=广告终结者, force-policy=reject, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/WeChat/WeChat.list, tag=微信直连, force-policy=direct, update-interval=172800, opt-parser=false, enabled=true
@@ -132,7 +137,16 @@ https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.Chin
 
 [filter_local]
 
+DOMAIN-KEYWORD,ouo,emby
 
+
+# Microsoft
+DOMAIN-SUFFIX,ads.msn.com,reject
+DOMAIN-SUFFIX,ads1.msn.com,reject
+DOMAIN-SUFFIX,ads2.msn.com,reject
+DOMAIN-SUFFIX,bingads.microsoft.com,reject
+DOMAIN-SUFFIX,rads.msn.com,reject
+DOMAIN,mobileads.msn.com,reject
 
 # > 一些比较容易忽视的分流
 
