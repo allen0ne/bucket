@@ -72,7 +72,7 @@ https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.re
 [server_remote]
 # > 订阅节点
 https://c7a91e3b-84d2-4c6f-9b71-2e8d4a6f3c11.com/sabusuku?token=55c3f0cc341a3dbbc28d5df0bbaeff21, tag=cat, update-interval=172800, opt-parser=true, enabled=true
-https://oss5-china-east-bucket.selectgroup.click/api/graphql?token=4ab099be5428b2889b74e7ff61a66d1d, tag=OuO, update-interval=172800, opt-parser=true, enabled=true
+https://oss-china-bucket.c1-click.selectgroup.click/api/graphql?token=4ab099be5428b2889b74e7ff61a66d1d, tag=OuO, update-interval=172800, opt-parser=true, enabled=true
 https://dash.xn--cp3a08l.com/api/v1/pq/c74d488b19189e94dc803d9b1f444a8c, tag=赔钱, update-interval=172800, opt-parser=false, enabled=true
 
 
